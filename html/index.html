@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/estilosLandingPage.css">
+</head>
+<body>
+<!--        Inicio Sección Banner       -->
+<section>
+<section role="banner" class="banner">
+    <a href="#"><img id="logoGTI" src="../images/logoGTI.svg" alt="logo GTI"></a>
+    <button>Menú</button><!--Implementación de Carles -->
+</section>
+<!--        Final Sección Banner        -->
+<!--        Inicio sección LandingPage  -->
+<section class="landingP">
+    <h1 id="tituloLP">Sondas de Control de Precisión</h1>
+    <article id="textoLP">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aut eligendi rem repellendus totam! Asperiores delectus esse eum ex explicabo harum iure libero magni,
+        provident quae quis quos sint temporibus, unde!</article>
+    <img id="imagenLP" src="../images/imagenLP.jpg" alt="imagen representativa">
+    <a class="masInformacion" href="#servicios">Más Información</a>
+    <a class="gg-chevron-down" href="#servicios"></a>
+</section>
+</section>
+<!--        Final sección LandingPage       -->
+<!--        Inicio sección servicios        -->
+<section class="servicios" id="servicios">
+    <h2>¿Qué servicios ofrecemos?</h2>
+
+    <section  id="TiposdeSensores">
+        <!-------------------------------TITULOS-------------------------------------------------->
+        <h3>Tipos de sensores:</h3>
+        <!----------------------------------------------------------------------------------------->
+
+        <!----------------------------CONTENEDOR 1------------------------------------------------->
+        <div class="contenedor">
+            <!--------------------------BOTONES--------------------------------------->
+            <div class=" boton botón_derecho" id="botón_derecho"></div>
+            <div class=" boton botón_izquierdo" id="botón_izquierdo"><span id="inconoMovSensores"></span></div>
+            <!------------------------------------------------------------------------>
+
+            <span class="slider" id="slider">
+
+        <!-------------------------TEMPERATURA----------------------------------------->
+             <div class="section">
+                <br>
+                <span class="sensor">Sensor de temperatura</span>
+                 <span class="ajustar">
+                    <img class="imagenes" src="images/Temperatura.jpg">
+                    <span class="texto">El sensor evalua, mide y recopila la temperatura
+                    ambiental, ajustando el tiempo entre cada medición. Efectividad de entre -15 y 60 ºC.
+                    </span>
+                </span>
+            </div>
+                <!----------------------------------------------------------------------------->
+
+                <!----------------------------HUMEDAD------------------------------------------>
+            <div class="section">
+                <br>
+                <span class="sensor">Sensor de humedad</span>
+                <span class="ajustar">
+                    <img class="imagenes" src="images/Humedad.png">
+                    <span class="texto">
+                        Este sensor realiza un control a tiempo real sobre
+                        la humedad, permitiendo así regular el riego de manera más eficiente.
+                    </span>
+                </span>
+            </div>
+                <!----------------------------------------------------------------------------->
+
+                <!-----------------------------SALINIDAD--------------------------------------->
+            <div class="section">
+                <br>
+                <span class="sensor">Sensor de salinidad</span>
+                <span class="ajustar">
+                    <img class="imagenes" src="images/Salinidad.jpg">
+                    <span class="texto">
+                       El sensor está diseñado para controlar el nivel de salinidad de los pozos
+                        de riego de las diferentes plantaciones que se pueden poseer.
+                    </span>
+                </span>
+            </div>
+                <!----------------------------------------------------------------------------->
+
+                <!-----------------------------ILUMMINACIÓN------------------------------------>
+            <div class="section">
+                <br>
+                <span class="sensor">Sensor de iluminación</span>
+                <span class="ajustar">
+                    <img class="imagenes" src="images/Fondo.png">
+                    <span class="texto">
+                       Este sensor controla los niveles de luminosidad, para controlar
+                        tanto las situaciones climatológicas como los invernaderos.
+                    </span>
+                </span>
+            </div>
+                <!----------------------------------------------------------------------------->
+
+                <!-----------------------------ACELERÓMETRO------------------------------------>
+            <div class="section">
+                <br>
+                <span class="sensor">Acelerómetro</span>
+                <span class="ajustar">
+                    <img class="imagenes" src="images/Fondo.png">
+                    <span class="texto">
+                        El sensor está diseñado para detectar vibraciones que le afectan a la sonda,
+                        en función del tiempo, para comprobar si lo roban.
+                    </span>
+                </span>
+            </div>
+                <!----------------------------------------------------------------------------->
+        </span><!--slider-->
+        </div><!--contenedor1-->
+        <!----------------------------------------------------------------------------------------->
+    </section>
+    <h3>Datos</h3>
+    <h3>Instalación</h3>
+</section>
+<!--        Final sección servicios     -->
+<!--        Inicio sección contacto     -->
+<section class="contacto">
+    <h2>Contáctanos</h2>
+    <form action="">
+            <!-- <-----------------------------------------------------------------Titutlos -->
+            <h3>GTI</h3>
+            <!-- <------------------------------------------------------------------  Container 1 -->
+            <div class="Nombre">
+                <form class="Nombre">
+                    <label>Nombre</label>
+                    <input class="Nombre" type="text">
+                    <label>Apellidos</label>
+                    <input class="Nombre" type="text">
+                </form>
+            </div>
+            <!-- ------------------------------------------------------------ -->
+            <div class="Email">
+                <form class="Email">
+                    <label>Email</label>
+                    <input class="Email" type="text">
+                </form>
+            </div>
+            <!-- ---------------------------------------------------------------------->
+            <div class="Motivo">
+                <form class="Motivo">
+                    <label>Motivo</label>
+                    <textarea name="Motivo" ></textarea>
+                </form>
+            </div>
+            <!-- ------------------------------------------------------------------ -->
+            <div class="Enviar">
+                <form>
+                    <input type="button" value="ENVIAR" id="boton"></form>
+            </div>
+    </form>
+</section>
+</body>
+</html>
