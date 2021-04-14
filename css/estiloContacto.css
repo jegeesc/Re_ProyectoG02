@@ -12,13 +12,6 @@
 */
 
 
-body {
-        background-image: url("page_1.jpg");
-        background-size : 100vw 100vh;
-        background-attachment: fixed;
-        margin: 0;
-
-    }
     form{
         width: 450px;
         margin: auto;
@@ -30,12 +23,12 @@ body {
     }
 
     h2{
-        color:#008000;
+        transition-duration: 1s;
         text-align: center;
-        margin: 0;
-        font-size: 30px;
-        margin-bottom: 20px;
-        font-family: Candara;
+        font-family: "Poor Richard";
+        font-size: 25px;
+        height: 10px;
+        text-shadow: 1px 1px #9370db;
     }
 
     input,textarea{
@@ -66,11 +59,7 @@ body {
         background-color: #2B5B01
     }
     .Nombre{
-      form label{
-          width:72px;
-          font-weight: bold;
-          display: inline-block;
-      }
+
       width: 100%;
       margin-bottom: 20px;
       padding: 7px;
@@ -79,6 +68,11 @@ body {
       border-radius:15px ;
 
   }
+form label{
+    width:72px;
+    font-weight: bold;
+    display: inline-block;
+}
 
     .Email{
         margin-bottom: 20px;
@@ -93,19 +87,26 @@ body {
             display: inline-block;
         }
 
-    .Motivo{
-      min-height: 100px;
-      max-height: 100px;
-      max-width: 100%;
+    .motivo{
+        margin-left: auto;
+      min-height: 200px;
+      max-height: 300px;
+      min-width: 395px;
+      max-width: 395px;
 }
+    .Motivos>p{
+        margin-left: 10px;
+        width:72px;
+        font-weight: bold;
+        display: inline-block;
+    }
+
   form input{
 
   }
 
-    }
 
-    }
     #boton:hover{
         cursor:pointer;
     }
-    @media(max-width: 480px) {
+    @media(max-width: 480px) {}

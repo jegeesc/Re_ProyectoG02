@@ -1,11 +1,8 @@
-body{
-    background-image: url("../images/fondoPosible4.jpg");
-}
 section{
-    background-image: url("../images/fondoPosible3.jpg");
+    margin: auto;
+    background-image: url("images/fondoProvisional.jpeg");
 }
 .landingP {
-    height: 700px;
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
@@ -14,9 +11,9 @@ section{
     transition-duration: 1s;
     text-align: center;
     font-family: "Poor Richard";
-    font-size: 30px;
+    font-size: 40px;
     height: 10px;
-    text-shadow: 1px 1px #9370db;
+    text-shadow: 1px 1px mediumpurple;
 }
 #textoLP{
     transition-duration: 1s;
@@ -36,18 +33,13 @@ section{
 
 .banner{
     height: auto;
-    background: rgba(144, 226, 152,0.4);
+    background: honeydew;
     display: flex;
     justify-content: space-around;
 }
 .landingP{
     display: flex;
     flex-direction: column;
-}
-.servicios{
-    display: flex;
-    flex-direction: column;
-
 }
 .contacto{
     display: flex;
@@ -65,7 +57,7 @@ section{
     color: aliceblue;
     text-shadow: 1px 1px mediumpurple;
     text-align: center;
-    background: rgba(78, 153, 55,0.6);
+    background: rgba(118, 7, 168, 0.3);
     border-radius: 10px;
     padding-top: 10px;
     margin-right: auto;
@@ -80,7 +72,7 @@ section{
     color: aliceblue;
     text-shadow: 1px 1px mediumpurple;
     text-align: center;
-    background: rgba(147, 255, 117,0.3);
+    background: rgba(118, 7, 168, 0.2);
     border-radius: 10px;
     margin-right: auto;
     margin-left: auto;
@@ -88,38 +80,43 @@ section{
     border: 1px dotted mediumpurple;
 
 }
-.gg-chevron-down-o {
+.gg-chevron-down {
     box-sizing: border-box;
-    position: relative;
-    display: block;
     transform: scale(var(--ggs,1));
-    width: 45px;
-    height: 45px;
-    border: 2px solid;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border: 10px solid transparent;
     border-radius: 100px;
     margin-left: auto;
-    margin-right: 30px;
-    margin-bottom:40px ;
-    color: black;
-    background-color: rgba(147, 255, 117,0.4);
+    margin-right: auto;
+    margin-bottom: 10px;
+
+
 }
-.gg-chevron-down-o::after {
+.gg-chevron-down::after {
     content: "";
     display: block;
     box-sizing: border-box;
     position: absolute;
     width: 20px;
+    color: black;
     height: 20px;
     border-bottom: 2px solid;
     border-right: 2px solid;
     transform: rotate(45deg);
-    left: 10px;
-    top: 5px
+    left: 4px;
+    top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
-.gg-chevron-down-o:hover{
-    background-color: rgba(147, 255, 117,1);
 
+/*--------------------------------------------------------*/
+h2{
+    
 }
+
 .servicios{
     display: flex;
     flex-direction: column;
@@ -139,16 +136,11 @@ section{
     font-family: "Caviar Dreams";
 }
 .imagenes{
-    width: 200px;
-    height: 200px;
-    border-radius: 25px;
+    weight: 150px;
+    height: 150px;
 }
 h2{
     margin: 0 auto;
-}
-h3{
-    margin-top: 5px;
-
 }
 h4{
     margin: 5px auto;
