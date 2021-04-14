@@ -1,5 +1,5 @@
 /*Esta es la fuente que he usado yo para probar*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /*Esto sirve para quitar el subrallado de los links*/
 * {
     text-decoration: none;
@@ -70,7 +70,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: "Raleway";
+    font-family: "Roboto";
     font-size: 25px;
 
 }
@@ -95,7 +95,7 @@
 .botones_menu {
     display: flex;
     flex-wrap: column;
-    font-family: "Raleway";
+    font-family: "Roboto";
     justify-content: space-around;
     margin-top: 20%;
     text-align: center;
@@ -120,6 +120,8 @@
     padding: 10px;
     margin-left: 10%;
     justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
 
 }
 
