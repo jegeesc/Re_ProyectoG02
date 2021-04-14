@@ -1,6 +1,8 @@
-section{
-    margin: auto;
-    background-image: url("../images/fondoProvisional.jpeg");
+body{
+    background-image: url("../images/fondoPosible3.jpg");
+}
+.contacto{
+    background-image: url("../images/fondoPosible3.jpg");
 }
 .landingP {
     display: flex;
@@ -13,7 +15,7 @@ section{
     font-family: "Poor Richard";
     font-size: 30px;
     height: 10px;
-    text-shadow: 1px 1px mediumpurple;
+    text-shadow: 1px 1px #9370db;
 }
 #textoLP{
     transition-duration: 1s;
@@ -33,7 +35,7 @@ section{
 
 .banner{
     height: auto;
-    background: honeydew;
+    background: rgba(170, 144, 226, 0.5);
     display: flex;
     justify-content: space-around;
 }
@@ -85,34 +87,31 @@ section{
     border: 1px dotted mediumpurple;
 
 }
-.gg-chevron-down {
+.gg-chevron-down-o {
     box-sizing: border-box;
+    position: relative;
+    display: block;
     transform: scale(var(--ggs,1));
-    color: black;
-    width: 40px;
-    height: 40px;
-    border: 10px solid transparent;
+    width: 45px;
+    height: 45px;
+    border: 2px solid;
     border-radius: 100px;
     margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-
-
+    margin-right: 30px;
+    margin-bottom:20px ;
+    color: black;
+    background-color: rgba(209, 117, 255,0.3);
 }
-.gg-chevron-down::after {
+.gg-chevron-down-o::after {
     content: "";
     display: block;
     box-sizing: border-box;
     position: absolute;
     width: 20px;
-    color: black;
     height: 20px;
     border-bottom: 2px solid;
     border-right: 2px solid;
     transform: rotate(45deg);
-    left: 4px;
-    top: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    left: 10px;
+    top: 5px
 }

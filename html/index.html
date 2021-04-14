@@ -6,14 +6,44 @@
     <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/estilosLandingPage.css">
+    <link rel="stylesheet" href="../css/menu.css">
 </head>
 <body>
 <!--        Inicio Sección Banner       -->
 <section>
-<section role="banner" class="banner">
+<header  class="banner">
     <a href="#"><img id="logoGTI" src="../images/logoGTI.svg" alt="logo GTI"></a>
-    <button>Menú</button><!--Implementación de Carles -->
-</section>
+    <!--
+==================================================================================
+                                       MENU
+==================================================================================
+-->
+    <a href="#container_menu" class="gg-menu"   ></a>
+    </a>
+
+    <div id="container_menu" class="container_menu" >
+        <nav class="menu" id="menu_lp">
+            <!--  APARTADOS CON TEXTO DEL MENÚ   -->
+            <div class="texto_menu">
+                <a class="link" href="#servicios">Servicios Ofrecidos</a>
+                <a class="link" href="#opiniones">Opiniones</a>
+                <a class="link" href="#casos_de_exito">Casos de Éxito</a>
+                <a class="link" href="#FAQs">FAQs</a>
+            </div>
+            <!--  APARTADOS "BOTON" DEL MENÚ  -->
+            <div class="botones_menu">
+                <a href="#contacto" id="boton_menu_contacto">CONTACTO</a>
+                <a href="#" id="boton_menu_login">INICIAR SESIÓN</a>
+            </div>
+            <!--BOTON DE CERRAR EL MENU-->
+            <div id="boton_menu_cerrar" class="boton_menu_cerrar">
+                <a href="#">  <img src="../images/cerrar.svg" width="40"> </a>
+            </div>
+        </nav>
+    </div>
+    <!--        Final de Menú        -->
+    <!--Implementación de Carles -->
+</header>
 <!--        Final Sección Banner        -->
 <!--        Inicio sección LandingPage  -->
 <section class="landingP">
@@ -23,7 +53,7 @@
         provident quae quis quos sint temporibus, unde!</article>
     <img id="imagenLP" src="../images/imagenLP.jpg" alt="imagen representativa">
     <a class="masInformacion" href="#servicios">Más Información</a>
-    <a class="gg-chevron-down" href="#servicios"></a>
+    <a class="gg-chevron-down-o" href="#servicios"></a>
 </section>
 </section>
 <!--        Final sección LandingPage       -->
@@ -122,7 +152,7 @@
 </section>
 <!--        Final sección servicios     -->
 <!--        Inicio sección contacto     -->
-<section class="contacto">
+<section class="contacto" id="contacto">
     <h2>Contáctanos</h2>
     <form action="">
             <!-- <-----------------------------------------------------------------Titutlos -->
