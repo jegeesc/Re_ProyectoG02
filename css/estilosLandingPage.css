@@ -5,11 +5,14 @@ section{
     background-image: url("../images/fondoPosible3.jpg");
 }
 .landingP {
-    height: 700px;
+    padding-top: 30px;
+    height: 750px;
     display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
 }
+
 #tituloLP{
     transition-duration: 1s;
     text-align: center;
@@ -19,6 +22,8 @@ section{
     text-shadow: 1px 1px #9370db;
 }
 #textoLP{
+    margin: 50px auto;
+    width: 50%;
     transition-duration: 1s;
     font-family: "Poor Richard";
     font-size: 20px;
@@ -35,16 +40,18 @@ section{
 }
 
 .banner{
-    height: auto;
+
     background: rgba(144, 226, 152,0.4);
     display: flex;
     justify-content: space-around;
-}
-.landingP{
-    display: flex;
-    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+
 }
 .servicios{
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
 
@@ -71,6 +78,7 @@ section{
     margin-right: auto;
     margin-left: auto;
     box-shadow: 1px 1px mediumpurple;
+    margin-top: 30px;
 
 }
 .masInformacion:hover{
@@ -90,7 +98,6 @@ section{
 }
 .gg-chevron-down-o {
     box-sizing: border-box;
-    position: relative;
     display: block;
     transform: scale(var(--ggs,1));
     width: 45px;
@@ -99,9 +106,10 @@ section{
     border-radius: 100px;
     margin-left: auto;
     margin-right: 30px;
-    margin-bottom:40px ;
+    margin-bottom:80px ;
     color: black;
     background-color: rgba(147, 255, 117,0.4);
+
 }
 .gg-chevron-down-o::after {
     content: "";
@@ -121,6 +129,7 @@ section{
 
 }
 .servicios{
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
 
