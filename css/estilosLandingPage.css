@@ -39,7 +39,7 @@ section{
     transition-duration: 2500ms;
     border-radius: 15%;
     height: 300px;
-    width: 30%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
@@ -114,7 +114,7 @@ section{
     margin-bottom:50px ;
     color: black;
     background-color: rgba(147, 255, 117,0.4);
-    rotation: 180grad;
+    rotation: 90grad;
 
 }
 .gg-chevron-down-o::after {
@@ -126,10 +126,9 @@ section{
     height: 20px;
     border-bottom: 2px solid;
     border-right: 2px solid;
-    transform: rotate(45deg);
+    transform: rotate(225deg);
     left: 10px;
-    top: 5px;
-    rotation: 180grad;
+    top: 15px;
 }
 .gg-chevron-down-o:hover{
     background-color: rgba(147, 255, 117,1);
