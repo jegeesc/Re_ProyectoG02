@@ -1,5 +1,13 @@
 /*Específicos*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
 /*Relleno en la parte de arriba de la sección*/
+#bodyLogin{
+    height: 673px;
+    background: url("../images/fondoPosible3.jpg");
+}
 .login_inicioSesion {
     padding-top: 10px;
 }
@@ -102,7 +110,7 @@
     width: 85%;
     border-radius:22px;
     font-size: 18px;
-    font-family: poor richard;
+    font-family: "Montserrat";
 }
 /*Añade estilo al botón para iniciar sesión cuando el ratón está encima*/
 .login_boton:hover {
