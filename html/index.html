@@ -7,6 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/estilosLandingPage.css">
     <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/estilosLogin.css">
     <link rel="stylesheet" href="../css/estiloContacto.css">
 </head>
 <body>
@@ -34,7 +35,7 @@
             <!--  APARTADOS "BOTON" DEL MENÚ  -->
             <div class="botones_menu">
                 <a href="#contacto" id="boton_menu_contacto">CONTACTO</a>
-                <a href="#" id="boton_menu_login">INICIAR SESIÓN</a>
+                <a href="login.html" id="boton_menu_login">INICIAR SESIÓN</a>
             </div>
             <!--BOTON DE CERRAR EL MENU-->
             <div id="boton_menu_cerrar" class="boton_menu_cerrar">
@@ -43,6 +44,7 @@
         </nav>
     </div>
     <!--        Final de Menú        -->
+
     <!--Implementación de Carles -->
 </header>
 <!--        Final Sección Banner        -->
@@ -165,38 +167,27 @@
 <!--        Inicio sección contacto     -->
 <section class="contacto" id="contacto">
     <h2>CONTÁCTANOS</h2>
-    <form action="">
-
+    <form action="#">
         <div class="centrar">
-
-
             <!-- <-----------------------------------------------------------------Titutlos -->
 
             <!-- <------------------------------------------------------------------  Container 1 -->
             <div class="Nombre">
                 <form class="Nombre">
-
-                    <label>Nombre</label>
-                    <input class="Nombre" type="text"  required>
-
-                    <label>Apellidos</label>
-                    <input class="Nombre" type="text"  required>
-
-                    <label>Email</label>
-                    <input class="Email" type="email"  required>
-
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" class="Nombre" type="text"  required>
+                    <label for="apellidos">Apellidos</label>
+                    <input id="apellidos" class="Nombre" type="text"  required>
+                    <label for="email">Email</label>
+                    <input id="email" class="Email" type="email"  required>
                 </form>
             </div>
             <!-- ------------------------------------------------------------ -->
-
             <!--
             <div class="Email">
         <form class="Email">
-
             <label>Email</label>
             <input class="Email" type="text">
-
-
         </form>
             </div>
         <!- -----------------------------------------------------------------
@@ -207,16 +198,13 @@
                 <p>Motivo</p>
                 <textarea name="Motivo" class="motivo"></textarea>
             </div>
-
+            <div class="Enviar">
+                <button type="submit" value="ENVIAR" id="botonEnviar">Enviar</button>
+            </div>
         </div>
     </form>
-    </div>
     <!-- ------------------------------------------------------------------ -->
-    <div class="Enviar">
-        <form class="Enviar">
-            <input type="submit" value="ENVIAR" id="boton">
-        </form>
-    </div>
+
 </section>
 </body>
 </html>

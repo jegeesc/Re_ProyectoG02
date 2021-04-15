@@ -22,10 +22,8 @@
 
 /*Para hacer que se muestre*/
 .container_menu:target {
-
     visibility: visible;
     opacity: 1;
-
 }
 
 .container_menu:target .menu {
@@ -49,7 +47,6 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-
     background: rgb(240, 240, 240, 0.95);
     visibility: hidden;
     top: 180%;
