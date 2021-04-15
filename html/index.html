@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/estilosLandingPage.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/estilosLogin.css">
+    <link rel="stylesheet" href="../css/estiloContacto.css">
+</head>
+<body>
+<!--        Inicio Sección Banner       -->
+<section class="landingP">
+<header  class="banner">
+    <a href="index.html"><img id="logoGTI" src="../images/logoGTI.svg" alt="logo GTI"></a>
+    <!--
+==================================================================================
+                                       MENU
+==================================================================================
+-->
+   <a href="#container_menu" ><div class="gg-menu" id="boton_menu"></div></a>
+
+    <div id="container_menu" class="container_menu" >
+        <nav class="menu" id="menu_lp">
+            <!--  APARTADOS CON TEXTO DEL MENÚ   -->
+            <div class="texto_menu">
+                <a class="link" href="#servicios">Servicios Ofrecidos</a>
+               <!-- <a class="link" href="#opiniones">Opiniones</a>
+                <a class="link" href="#casos_de_exito">Casos de Éxito</a>
+                <a class="link" href="#FAQs">FAQs</a>-->
+            </div>
+            <!--  APARTADOS "BOTON" DEL MENÚ  -->
+            <div class="botones_menu">
+                <a href="#contacto" id="boton_menu_contacto">CONTACTO</a>
+                <a href="login.html" id="boton_menu_login">INICIAR SESIÓN</a>
+            </div>
+            <!--BOTON DE CERRAR EL MENU-->
+            <div id="boton_menu_cerrar" class="boton_menu_cerrar">
+                <a href="#">  <img src="../images/cerrar.svg" width="40"> </a>
+            </div>
+        </nav>
+    </div>
+    <!--        Final de Menú        -->
+
+    <!--Implementación de Carles -->
+</header>
+<!--        Final Sección Banner        -->
+<!--        Inicio sección LandingPage  -->
+<div class="landingP" id="landingPP">
+    <h1 id="tituloLP">Sondas de Control de Precisión</h1>
+    <p id="textoLP">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aut eligendi rem repellendus totam! Asperiores delectus esse eum ex explicabo harum iure libero magni,
+        provident quae quis quos sint temporibus, unde!</p>
+    <img id="imagenLP" src="../images/imagenLP.jpg" alt="imagen representativa">
+    <a class="masInformacion" href="#servicios">Más Información</a>
+
+</div>
+</section>
+<!--        Final sección LandingPage       -->
+<!--        Inicio sección servicios        -->
+<section class="servicios" id="servicios">
+    <h2>¿Qué servicios ofrecemos?</h2>
+
+    <div  id="TiposdeSensores">
+        <!-------------------------------TITULOS-------------------------------------------------->
+        <!----------------------------------------------------------------------------------------->
+        <!----------------------------CONTENEDOR 1------------------------------------------------->
+        <div class="contenedor">
+            <!--------------------------BOTONES--------------------------------------->
+            <h3>Tipos de sensores:</h3>
+            <!------------------------------------------------------------------------>
+            <span class="slider" id="slider">
+        <!-------------------------TEMPERATURA----------------------------------------->
+             <div class="sensores">
+                <h4>Sensor de temperatura</h4>
+                 <p class="ajustar">
+                    <img class="imagenes" src="../images/Temperatura.jpg" alt="Sensor Temperatura">
+                    <span class="texto">El sensor evalua, mide y recopila la temperatura
+                    ambiental, ajustando el tiempo entre cada medición.
+                        <br>Así los agricultores pueden determinar y variar el trabajo que realizan
+                        según las condiciones en las
+                        que se encuentre la<br> sonda, sin tener que
+                        estar pendiente se la plantación en cada momento.
+                        <br>Tiene una efectividad de entre -15 y 60 ºC.
+                    </span>
+                </p>
+            </div>
+                <!----------------------------------------------------------------------------->
+                <!----------------------------HUMEDAD------------------------------------------>
+            <div class="sensores">
+                <h4>Sensor de humedad</h4>
+                <span class="ajustar">
+                    <img class="imagenes" src="../images/Humedad.jpg" alt="Sensor Humedad">
+                    <p class="texto">
+                        El sensor está diseñado para realizar un control a tiempo real sobre
+                        la humedad y estado de las plantas, permitiendo así
+                        <br> a los agricultores
+                        regular el riego de manera más eficiente, sin sufrir excesos con el agua o la alimentación.
+                        <br>Siendo avisados de los diferentes cambios que se pudan encontrar en la
+                        plantació, sin necesidad de que alguien este en el
+                        <br>lugar del cultivo.
+                    </p>
+                </span>
+            </div>
+                <!----------------------------------------------------------------------------->
+                <!-----------------------------SALINIDAD--------------------------------------->
+            <div class="sensores">
+                <h4>Sensor de salinidad</h4>
+                <span class="ajustar">
+                    <img class="imagenes" src="../images/Salinidad.jpg" alt="Sensor Salinidad">
+                    <p class="texto">
+                        Este sensor está diseñado para controlar el nivel de salinidad de los pozos de riego de las
+                        diferentes plantaciones.
+                        <br>Así ayudando a los agricultores a saber que pozos pueden ser utilizados en cada momento,
+                        con la facilidad de comprobarlo
+                        <br>al alcance de tu mano, y además  mejorar la producción.
+                    </p>
+                </span>
+            </div>
+                <!----------------------------------------------------------------------------->
+                <!-----------------------------ILUMMINACIÓN------------------------------------>
+            <div class="sensores">
+                <h4>Sensor de iluminación</h4>
+                <span class="ajustar">
+                    <img class="imagenes" src="../images/Iluminación.jpg" alt="Sensor Iluminación">
+                    <p class="texto">
+                        El sensor está diseñado para controlar los niveles de luminosidad, y así determinar si la
+                        <br>sonda se encuentra en luz artificial, luz natural o si es de noche o hay luz apagada.
+                        <br>Para mejorar el rendimiento de los invernaderos, así como saber las
+                        mejores condiciones de crecimiento de los cultivos
+                    </p>
+                </span>
+            </div>
+                <!-----------------------------------------------------------------------------
+                <!-----------------------------ACELERÓMETRO------------------------------------>
+            <div class="sensores">
+                <h4>Acelerómetro</h4>
+                <span class="ajustar">
+                    <img class="imagenes" src="../images/Acelerómetro.jpg" alt="Acelerómetro">
+                    <p class="texto">
+                        El sensor está diseñado para detectar la aceleración puntual sufrida en cada uno de los ejes del mismo.
+                        <br>Estos cambios de aceleración proporcionan al sensor información a cerca del movimiento
+                        que se está describiendo y que
+                        <br>le afectan en función del tiempo. Informando al agricultor de un posible hurto de la sonda.
+                    </p>
+                </span>
+            </div>
+                <!----------------------------------------------------------------------------->
+            </span><!--slider-->
+    <!----------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------->
+    <h2>¿Como visualizo los datos?</h2>
+    <div class="sensores">
+        <h4>Grafica Cuadriculadal</h4>
+        <span class="ajustar">
+                    <img class="imagenes" src="../images/graficado.jpg" alt="Acelerómetro">
+                    <p class="texto">
+                        Este tipo de represatación está diseñada para poder ver con exactitud los datos en función del tiempo.
+                        <br>puediendo asi,ver como reaccionan a diferentes tratamientos o temperaturas
+                       y compararlo con resultados obtenidos anteriormente
+                        <br>
+                    </p>
+                </span>
+    </div>
+    <div class="sensores">
+
+        <h4>Grafica Lineal</h4>
+        <span class="ajustar">
+                    <img class="imagenes" src="../images/grafica3.jpg" alt="Acelerómetro">
+                    <p class="texto">
+                        Este otro tipo de represatación está diseñada para ver el % que nos etsa midiendo cada sonda
+                        <br>puediendo asi,ver como reaccionan a diferentes tratamientos o temperaturas
+                       y compararlo con resultados obtenidos anteriormente
+                        <br>
+                    </p>
+                </span>
+    </div>
+
+
+    <h2>¿Como se instalan las sondas?</h2>
+    <div class="sensores">
+        <h4>Instalación</h4>
+        <span class="ajustar">
+                    <img class="imagenes" src="../images/goteoc.jpg" alt="Acelerómetro">
+                    <p class="texto">
+                        La instalación se realiza de una forma rápida y eficaciente,previem
+                        <br>sin entorpecer la jornanda laboral del campo,ni causando ningún perjuicio
+                       para el cultivo realizado por tecnicos altamente cualificados
+                        <br>y con experiencia
+                    </p>
+                </span>
+    </div>
+    </div><!--contenedor1-->
+    <!----------------------------------------------------------------------------------------->
+    </div>
+</section>
+<!--        Final sección servicios     -->
+<!--        Inicio sección contacto     -->
+<section class="contacto" id="contacto">
+    <h2>CONTÁCTANOS</h2>
+    <div id="fondoContacto">
+    <form id="formContact" action="#">
+        <div class="centrar">
+            <!-- <-----------------------------------------------------------------Titutlos -->
+            <!-- <------------------------------------------------------------------  Container 1 -->
+            <div class="Nombre">
+                <form class="Nombre">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" class="Nombre" type="text"  required>
+                    <label for="apellidos">Apellidos</label>
+                    <input id="apellidos" class="Nombre" type="text"  required>
+                    <label for="email">Email</label>
+                    <input id="email" class="Email" type="email"  required>
+                </form>
+            </div>
+            <!-- ------------------------------------------------------------ -->
+            <!--
+            <div class="Email">
+        <form class="Email">
+            <label>Email</label>
+            <input class="Email" type="text">
+        </form>
+            </div>
+        <!- -----------------------------------------------------------------
+            <div class="Motivo">
+            <form class="Motivo">
+            ----->
+            <div class="Motivos">
+                <p>Motivo</p>
+                <textarea name="Motivo" class="motivo"></textarea>
+            </div>
+            <div class="Enviar">
+                <button type="submit" value="ENVIAR" id="botonEnviar">Enviar</button>
+            </div>
+        </div>
+    </form>
+    </div>
+
+    <!-- ------------------------------------------------------------------ -->
+    <div>
+        <a class="gg-chevron-down-o" href="index.html"></a>
+    </div>
+</section>
+    <section>
+      <div class="footer">
+        <footer>
+            <ul class="list-inline">
+                <li class="item"><a href="#">Inicio</a></li>
+                <li class="item"><a href="#">Servicios</a></li>
+                <li class="item"><a href="#">Terminos</a></li>
+                <li class="item"><a href="#">Politica de Privacidad</a></li>
+            </ul>
+            <p class="copyright">SumiWeb © 2021</p>
+        </footer>
+    </div>
+    </section>
+</section>
+</body>
+</html>

@@ -1,0 +1,132 @@
+/*
+ .centrar{
+    /*width: 360px;
+    height: 740px;
+    margin: auto auto;
+    border: black 2px solid;
+    background-image: url("page_1.jpg");
+     form label{
+        width:72px;
+        font-weight: bold;
+        display: inline-block;
+*/
+
+#fondoContacto{
+    background-color: rgba(127, 38, 171, 0.4);
+    border-radius: 25px;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    box-shadow: 0 0 15px grey;
+
+}
+form{
+        width: 450px;
+        margin: auto;
+        background: none;
+        padding:10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding-bottom: 30px;
+}
+
+
+
+    input,textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: content-box;
+        font-size: 17px;
+        border-radius:15px ;
+    }
+    textarea{
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+    #botonEnviar{
+        font-size:15px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        border:0px;
+        border-radius: 15px;
+        width:100%;
+        height:44px;
+        position: center;
+        top:800px;
+        right:900px;
+        background-color: #489600
+    }
+#botonEnviar:hover{
+        font-size:15px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        border:0px;
+        border-radius: 15px;
+        width:100%;
+        height:44px;
+        position: center;
+        top:800px;
+        right:900px;
+        background-color: #3b7702
+    }
+    .Nombre{
+
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 17px;
+      border-radius:15px ;
+
+  }
+form label{
+    width:72px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+    .Email{
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border-radius:15px ;
+      }
+        form label{
+            width:72px;
+            font-weight: bold;
+            display: inline-block;
+        }
+    .motivo{
+        margin-left: auto;
+      min-height: 200px;
+      max-height: 300px;
+      min-width: 200px;
+      max-width: 395px;
+    }
+    .Motivos>p{
+        margin-left: 10px;
+        width:72px;
+        font-weight: bold;
+        display: inline-block;
+    }
+    #botonEnviar:hover{
+        cursor:pointer;
+    }
+@media screen and (max-width: 1000px) {
+    #formContact{
+        width: 200px;
+    }
+    .Motivos{
+        max-width: 200px;
+    }
+    h2{
+        margin-bottom: 100px;
+    }
+}
+

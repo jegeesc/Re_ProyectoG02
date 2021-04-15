@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.texto{
+    font-family: "Poor Richard";
+}
+body{
+    background-image: linear-gradient(#9370db,#56a756 );
+}
+section{
+    background-color: rgba(252, 252, 252,0.9);
+    width: 75%;
+    margin: auto;
+}
+.landingP {
+    padding-top: 15px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+
+#tituloLP{
+    transition-duration: 1s;
+    text-align: center;
+    font-size: 300%;
+    height: 10px;
+    text-shadow: 1px 1px #9370db;
+}
+#textoLP{
+    margin: 50px auto;
+    width: 60%;
+    font-family: "Varela Round";
+    transition-duration: 1s;
+    font-size: 20px;
+    text-align:  center ;
+}
+#imagenLP{
+    transition-duration: 2500ms;
+    border-radius: 15%;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.banner{
+    border-radius: 15px;
+    background: rgba(144, 226, 152,0.6);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+}
+.servicios{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+#logoGTI{
+    width: 110px;
+    height: 58px;
+}
+
+.masInformacion{
+    width: 130px ;
+    height: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 1px 1px mediumpurple;
+    text-align: center;
+    background: rgb(155, 100, 179);
+    box-shadow: 0 0 10px #000000;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    font-family: "Varela Round";
+
+}
+.masInformacion:hover{
+    width: 130px ;
+    height: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 1px 1px mediumpurple;
+    text-align: center;
+    background: rgb(233, 183, 255);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 0 10px #000000;
+    border: 1px dotted mediumpurple;
+
+}
+.gg-chevron-down-o {
+    box-sizing: border-box;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 0 10px #797979;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom:50px ;
+    color: black;
+    background-color: rgba(147, 255, 117,0.4);
+    rotation: 180grad;
+
+}
+.gg-chevron-down-o::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(225deg);
+    left: 12px;
+    top: 17px;
+}
+.gg-chevron-down-o:hover{
+    background-color: rgba(147, 255, 117,1);
+}
+.gg-chevron-down-log {
+    box-sizing: border-box;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 0 10px #797979;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-bottom:30px ;
+    margin-top: 40px;
+    color: black;
+    background-color: rgba(147, 255, 117,0.4);
+    rotation: 180grad;
+
+}
+.gg-chevron-down-log::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(135deg);
+    left: 15px;
+    top: 13px;
+}
+.gg-chevron-down-log:hover{
+    background-color: rgba(147, 255, 117,1);
+}
+.servicios{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.sensores{
+    background-color: rgba(118, 7, 168, 0.2);
+    margin: 20px auto;
+    padding-top: 10px;
+    border-radius: 30px;
+    width: 90%;
+    box-shadow: 0 0 10px grey;
+}
+.ajustar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.texto{
+    padding-left: 20px;
+    font-family: "Varela Round";
+    width: 60%;
+}
+.imagenes{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+h2{
+    transition-duration: 1s;
+    text-align: center;
+    font-size: 250%;
+    font-family: "Montserrat";
+    height: 10px;
+    text-shadow: 1px 1px #9370db;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right:auto ;
+}
+h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+.footer {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer li {
+  padding:0 10px;
+}
+
+.footer ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer ul a:hover {
+  opacity:1;
+}
+
+.footer .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}

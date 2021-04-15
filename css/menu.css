@@ -1,0 +1,192 @@
+/*Esta es la fuente que he usado yo para probar*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*Esto sirve para quitar el subrallado de los links*/
+* {
+    text-decoration: none;
+}
+
+/*ESTO ES SOLO VISUAL (PARA HACERME UNA IDEA DE COMO ES DE TRANSPARENTE EL MENÚ)*/
+
+
+/*MENÚ TAL CUAL*/
+.container_menu {
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 40px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+
+/*Para hacer que se muestre*/
+.container_menu:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.container_menu:target .menu {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    margin: 20% auto;
+    transform: rotate(0deg) translate(-50%, -50%);
+    visibility: visible;
+}
+
+/*ASPECTO DE LA CAJA */
+.menu {
+    width: 100%;
+    height: auto;
+    max-width: 20%;
+    max-height: 80%;
+    padding: 2%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(240, 240, 240, 0.95);
+    visibility: hidden;
+    top: 180%;
+    left: 180%;
+    transform: rotate(30deg) translate(80%, -580%) scale3d(-1, -1, 1);
+    transition: all 1.5s;
+    border-radius: 20px;
+    box-shadow: 0 0 50px #000000;
+}
+
+/*TEXTO DEL MENÚ*/
+.texto_menu {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 25px;
+
+}
+
+.link {
+    color: mediumslateblue;
+}
+
+.link:hover {
+    color: #d175ff;
+}
+/*
+.link:visited {
+    color: darkgray;
+}
+*/
+.texto_menu > a {
+    margin-top: 20%;
+}
+
+/*BOTONES DEL MENU*/
+.botones_menu {
+    display: flex;
+    flex-wrap: column;
+    font-family: "Roboto";
+    justify-content: space-around;
+    margin-top: 20%;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.boton_menu_cerrar {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    padding: 20px;
+
+
+}
+
+.botones_menu > a {
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #797979;
+    padding: 10px;
+    margin-left: 10%;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+#boton_menu_contacto {
+    background: cornflowerblue;
+
+}
+#boton_menu_contacto:hover{
+    background-color: lightblue;
+}
+#boton_menu_login {
+    background: #d175ff;
+}
+#boton_menu_login:hover{
+    background: #d3b9f5;
+}
+
+/*ADAPTABILIDAD A TODAS LAS PANTALLAS*/
+@media screen and (max-width: 1000px) {
+    .menu {
+        top: 15%;
+        max-height: 80%;
+        max-width: 40%;
+    }
+
+    .container_menu:target .menu {
+        top: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        top: 25%;
+        max-height: 80%;
+        max-width: 60%;
+    }
+
+    .container_menu:target .menu {
+        top: 40%;
+    }
+}
+.gg-menu {
+    transform: scale(var(--ggs,1.2));
+    color: black;
+    margin-top: 30px;
+
+}
+#boton_menu{
+    border: solid black 1px;
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 3px;
+    border-radius: 3px;
+    background: currentColor
+}
+.gg-menu::after,
+.gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -7.5px;
+    right: -1px;
+}
+.gg-menu::after {
+    top: 6px
+}
