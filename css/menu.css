@@ -79,11 +79,11 @@
 .link:hover {
     color: #d175ff;
 }
-
+/*
 .link:visited {
     color: darkgray;
 }
-
+*/
 .texto_menu > a {
     margin-top: 20%;
 }
