@@ -11,10 +11,16 @@
         display: inline-block;
 */
 
-.centrar{
-    background: none;
+#fondoContacto{
+    background-color: rgba(127, 38, 171, 0.4);
+    border-radius: 25px;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    box-shadow: 0 0 15px grey;
+
 }
-    form{
+form{
         width: 450px;
         margin: auto;
         background: none;
@@ -22,7 +28,8 @@
         box-sizing: border-box;
         margin-top: 20px;
         border-radius: 10px;
-    }
+        padding-bottom: 30px;
+}
 
 
 
@@ -99,7 +106,7 @@ form label{
         margin-left: auto;
       min-height: 200px;
       max-height: 300px;
-      min-width: 395px;
+      min-width: 200px;
       max-width: 395px;
     }
     .Motivos>p{
@@ -111,4 +118,15 @@ form label{
     #botonEnviar:hover{
         cursor:pointer;
     }
-    @media(max-width: 480px) {}
+@media screen and (max-width: 1000px) {
+    #formContact{
+        width: 200px;
+    }
+    .Motivos{
+        max-width: 200px;
+    }
+    h2{
+        margin-bottom: 100px;
+    }
+}
+

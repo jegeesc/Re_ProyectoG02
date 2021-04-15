@@ -8,12 +8,12 @@ body{
     background-image: linear-gradient(#9370db,#56a756 );
 }
 section{
-    background-color: rgba(221, 215, 253, 0.5);
+    background-color: rgba(252, 252, 252,0.9);
     width: 75%;
     margin: auto;
 }
 .landingP {
-    padding-top: 30px;
+    padding-top: 15px;
     height: 750px;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ section{
 #tituloLP{
     transition-duration: 1s;
     text-align: center;
-    font-size: 30px;
+    font-size: 300%;
     height: 10px;
     text-shadow: 1px 1px #9370db;
 }
@@ -48,7 +48,7 @@ section{
 
 .banner{
     border-radius: 15px;
-    background: rgba(144, 226, 152,0.4);
+    background: rgba(144, 226, 152,0.6);
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -134,7 +134,39 @@ section{
 }
 .gg-chevron-down-o:hover{
     background-color: rgba(147, 255, 117,1);
+}
+.gg-chevron-down-log {
+    box-sizing: border-box;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 0 10px #797979;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-bottom:30px ;
+    margin-top: 40px;
+    color: black;
+    background-color: rgba(147, 255, 117,0.4);
+    rotation: 180grad;
 
+}
+.gg-chevron-down-log::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(135deg);
+    left: 15px;
+    top: 13px;
+}
+.gg-chevron-down-log:hover{
+    background-color: rgba(147, 255, 117,1);
 }
 .servicios{
     padding-top: 25px;
@@ -148,6 +180,7 @@ section{
     padding-top: 10px;
     border-radius: 30px;
     width: 90%;
+    box-shadow: 0 0 10px grey;
 }
 .ajustar{
     display: flex;
