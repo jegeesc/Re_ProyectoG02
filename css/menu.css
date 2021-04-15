@@ -166,6 +166,9 @@
     margin-top: 30px;
 
 }
+#boton_menu{
+    border: solid black 1px;
+}
 .gg-menu,
 .gg-menu::after,
 .gg-menu::before {
