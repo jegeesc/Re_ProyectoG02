@@ -161,7 +161,7 @@
     }
 }
 .gg-menu {
-    transform: scale(var(--ggs,1));
+    transform: scale(var(--ggs,1.2));
     color: black;
     margin-top: 30px;
 
