@@ -184,8 +184,9 @@
 .gg-menu::before {
     content: "";
     position: absolute;
-    top: -6px
+    top: -7.5px;
+    right: -1px;
 }
 .gg-menu::after {
     top: 6px
-}
+}   
