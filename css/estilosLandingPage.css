@@ -77,27 +77,28 @@ section{
     color: aliceblue;
     text-shadow: 1px 1px mediumpurple;
     text-align: center;
-    background: rgba(78, 153, 55,0.6);
+    background: rgb(155, 100, 179);
+    box-shadow: 0 0 10px #000000;
     border-radius: 10px;
     padding-top: 10px;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 1px 1px mediumpurple;
     margin-top: 30px;
+    font-family: "Varela Round";
 
 }
 .masInformacion:hover{
-    width: 125px ;
+    width: 130px ;
     height: 30px;
     text-decoration: none;
     color: aliceblue;
     text-shadow: 1px 1px mediumpurple;
     text-align: center;
-    background: rgba(147, 255, 117,0.3);
+    background: rgb(134, 105, 150);
     border-radius: 10px;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: none;
+    box-shadow: 0 0 10px #000000;
     border: 1px dotted mediumpurple;
 
 }
@@ -107,7 +108,7 @@ section{
     transform: scale(var(--ggs,1));
     width: 45px;
     height: 45px;
-    box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #797979;
     border-radius: 100px;
     margin-left: auto;
     margin-right: 30px;
