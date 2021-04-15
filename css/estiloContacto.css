@@ -24,14 +24,7 @@
         border-radius: 10px;
     }
 
-    h2{
-        transition-duration: 1s;
-        text-align: center;
-        font-family: "Poor Richard";
-        font-size: 25px;
-        height: 10px;
-        text-shadow: 1px 1px #9370db;
-    }
+
 
     input,textarea{
         width: 100%;
