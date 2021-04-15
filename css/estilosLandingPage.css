@@ -1,9 +1,7 @@
 body{
-    background-image: url("../images/fondoPosible4.jpg");
+    background-image: linear-gradient( #56a756, #9370db);
 }
-section{
-    background-image: url("../images/fondoPosible3.jpg");
-}
+
 .landingP {
     padding-top: 30px;
     height: 750px;
@@ -105,9 +103,10 @@ section{
     border-radius: 100px;
     margin-left: auto;
     margin-right: 30px;
-    margin-bottom:80px ;
+    margin-bottom:70px ;
     color: black;
     background-color: rgba(147, 255, 117,0.4);
+    rotation: 180grad;
 
 }
 .gg-chevron-down-o::after {
@@ -121,7 +120,8 @@ section{
     border-right: 2px solid;
     transform: rotate(45deg);
     left: 10px;
-    top: 5px
+    top: 5px;
+    rotation: 180grad;
 }
 .gg-chevron-down-o:hover{
     background-color: rgba(147, 255, 117,1);
@@ -162,5 +162,4 @@ h4{
     margin: 5px auto;
     text-align: center;
     margin-top: 10px;
-
 }

@@ -51,7 +51,6 @@
         font-family:Verdana,Helvetica;
         font-weight:bold;
         color:white;
-        background:#000000;
         border:0px;
         border-radius: 15px;
         width:100%;
@@ -59,14 +58,13 @@
         position: center;
         top:800px;
         right:900px;
-        background-color: #2B5B01
+        background-color: #489600
     }
 #botonEnviar:hover{
         font-size:15px;
         font-family:Verdana,Helvetica;
         font-weight:bold;
         color:white;
-        background:#000000;
         border:0px;
         border-radius: 15px;
         width:100%;
