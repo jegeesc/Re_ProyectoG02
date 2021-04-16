@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
 /*
  .centrar{
     /*width: 360px;
@@ -29,6 +33,7 @@ form{
         margin-top: 20px;
         border-radius: 10px;
         padding-bottom: 30px;
+    font-family: Montserrat;
 }
 
 
@@ -48,7 +53,7 @@ form{
     }
     #botonEnviar{
         font-size:15px;
-        font-family:Verdana,Helvetica;
+        font-family:Montserrat;
         font-weight:bold;
         color:white;
         border:0px;
