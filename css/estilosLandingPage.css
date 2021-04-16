@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
 .texto{
-    font-family: "Poor Richard";
+    font-family: "Montserrat";
 }
 body{
     background-image: linear-gradient(#9370db, #6fa46f);
@@ -162,6 +162,7 @@ section{
 .gg-chevron-down-log:hover{
     background-color: rgba(147, 255, 117,1);
 }
+
 .servicios{
     padding-top: 25px;
     display: flex;
@@ -255,13 +256,40 @@ h4{
 @media screen and (max-width: 1000px) {
     section {
         background-color: rgba(252, 252, 252, 0.9);
-        width: 95%;
+        width: 98%;
     }
-    h2{
+    .sensoresOfrecemos{
+        margin-top: 20%;
+    }
+    .otroh2{
+        margin-bottom: 30%;
+        margin-top: 20%;
+    }
+    .otroh2h2{
         margin-bottom: 50%;
-        margin-top: 50%;
+        margin-top: 20%;       
     }
     h1{
+        margin-top: 20%;
         margin-bottom: 20%;
+    }
+    .ajustar{
+        display: block;
+    }
+    .imagenes{
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .texto{
+        width: auto;
+    }
+    #textoLP{
+        width: 90%;
+        text-align: justify;
+        font-size: 100%;
+    }
+    #tituloLP{
+        font-size: 240%;
     }
 }

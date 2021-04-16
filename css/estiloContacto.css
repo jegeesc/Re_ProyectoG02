@@ -18,7 +18,7 @@
 #fondoContacto{
     background-color: rgba(127, 38, 171, 0.4);
     border-radius: 25px;
-    width: 50%;
+    width: 60%;
     margin: auto;
     height: 100%;
     box-shadow: 0 0 15px grey;
@@ -101,6 +101,7 @@ form label{
         box-sizing: border-box;
         font-size: 17px;
         border-radius:15px ;
+        width: 100%
       }
         form label{
             width:72px;
@@ -127,11 +128,29 @@ form label{
     #formContact{
         width: 200px;
     }
+    #fondoContacto{
+        width: 90%;
+        margin-bottom: 10%;
+    }
     .Motivos{
         max-width: 200px;
     }
+    .motivo{
+        min-height: 100px;
+        min-width: 250px;
+    }
+    .Nombre{
+        width: 125%;
+    }
+    .email{
+        width: 125%;
+    }
     h2{
         margin-bottom: 100px;
+    }
+    form{
+        margin: 0;
+        width: 80%
     }
 }
 
