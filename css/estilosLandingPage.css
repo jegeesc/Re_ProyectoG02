@@ -47,7 +47,7 @@ section{
 }
 .banner{
     border-radius: 0px;
-    background: rgba(206, 252, 210, 0.6);
+    background: rgba(188, 224, 183,0.9);
     display: flex;
     justify-content: space-around;
     position: fixed;
